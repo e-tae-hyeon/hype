@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "pretendard";
+  src: url("/fonts/PretendardVariable.ttf");
+}
+
+html {
+  font-family: "pretendard";
+  @apply text-white bg-black;
+}
