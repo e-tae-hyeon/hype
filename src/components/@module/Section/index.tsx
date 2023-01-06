@@ -9,8 +9,10 @@ type Props = {
 function Section({ title, children }: Props) {
   return (
     <CardBase>
-      <h2 className="h2">{title}</h2>
-      {children}
+      <div className="flex flex-col gap-4">
+        <h2 className="h2">{title}</h2>
+        {children}
+      </div>
     </CardBase>
   );
 }
