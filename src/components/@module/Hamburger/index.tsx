@@ -20,7 +20,7 @@ function Hamburger() {
         <SvgIcon name="menu" size={28} />
       </button>
       <Drawer isVisible={isVisibleNav} onBackDrop={closeNav}>
-        <NavItems />
+        <NavItems onClick={closeNav} />
       </Drawer>
     </>
   );
