@@ -1,4 +1,4 @@
-import { Header, Layout } from "components/@module";
+import { Footer, Header, Layout } from "components/@module";
 import {
   Font,
   SizeInDesktop,
@@ -17,6 +17,7 @@ function TypographyPage() {
         <Weight />
         <SizeInDesktop />
         <SizeInMobile />
+        <Footer />
       </main>
     </Layout>
   );
