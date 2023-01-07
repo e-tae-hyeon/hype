@@ -1,36 +1,19 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# HYPE
+> 디자인알못을 위한 디자인 가이드
+<image src="https://user-images.githubusercontent.com/59396076/211150110-118375e4-54f1-4fc6-a7d6-e031b918e0a1.png" />
 
-## Getting Started
+## 왜 만들었나요?
+개발을 할 때 항상 디자인이 많은 리소스를 잡아먹었습니다. <br/>
+'padding은 몇으로 해야하지?', '컬러는 어떤걸 써야할까?' <br/>
+이런 고민들을 줄일 수 있게, 최소한의 노력으로 더 좋은 디자인을 가진 어플리케이션을 개발할 수 있도록 <br/>
+여러 서비스들을 분석해 디자인 가이드를 만들었습니다.
 
-First, run the development server:
+## 이런 것들을 알 수 있어요!
+- Typography
+- Color
+- Layout
+- Card
+- Arrange
 
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 직접 HYPE를 발전시켜주세요!
+공유하고 싶거나 더 좋은 디자인 가이드가 있다면 반영해서 더 멋진 HYPE 만들겠습니다!
