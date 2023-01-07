@@ -3,7 +3,7 @@ import React from "react";
 
 function AboutService() {
   return (
-    <div className="flex flex-col gap-4">
+    <div className="flex flex-col gap-4 lg:grid lg:grid-cols-2 lg:gap-8">
       <DescriptionCard title="디자인 어려우신가요?">
         디자이너가 없어도, 디자인을 몰라도 <br />
         유려한 디자인을 만들 수 있도록 <br />
