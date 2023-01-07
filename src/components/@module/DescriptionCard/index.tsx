@@ -1,4 +1,4 @@
-import { CardBase } from "components/@base";
+import { SectionBase } from "components/@base";
 import React from "react";
 
 type Props = {
@@ -8,12 +8,12 @@ type Props = {
 
 function DescriptionCard({ title, children }: Props) {
   return (
-    <CardBase>
+    <SectionBase>
       <div className="flex flex-col gap-4">
         <h3 className="body1">{title}</h3>
         <p className="text-gray-400 body2">{children}</p>
       </div>
-    </CardBase>
+    </SectionBase>
   );
 }
 

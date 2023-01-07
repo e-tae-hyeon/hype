@@ -1,4 +1,4 @@
-import { CardBase } from "components/@base";
+import { SectionBase } from "components/@base";
 import React from "react";
 
 type Props = {
@@ -8,12 +8,12 @@ type Props = {
 
 function Section({ title, children }: Props) {
   return (
-    <CardBase>
+    <SectionBase>
       <div className="flex flex-col gap-4">
         <h2 className="h2">{title}</h2>
         {children}
       </div>
-    </CardBase>
+    </SectionBase>
   );
 }
 
