@@ -16,7 +16,7 @@ function LinkItem({
   onClick: () => void;
 }) {
   return (
-    <Link href={to} onClick={onClick} className="p-4 m-[-1rem] h3">
+    <Link href={to} onClick={onClick} className="text-lg font-bold">
       {content}
     </Link>
   );
