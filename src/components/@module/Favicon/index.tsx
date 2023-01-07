@@ -3,7 +3,7 @@ import React from "react";
 function Favicon() {
   return (
     <>
-      <link rel="icon" href="/favicon.ico" />
+      <link rel="icon" href="/images/favicon.ico" />
       <link
         rel="apple-touch-icon"
         sizes="57x57"
