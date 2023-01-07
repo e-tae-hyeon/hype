@@ -8,7 +8,7 @@ function Hover() {
       <DefaultCard
         title="Shadow"
         description="box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);"
-        className="duration-300 hover:shadow-xl hover:shadow-red-500"
+        className="duration-150 hover:shadow-lg hover:shadow-red-500"
       />
       <DefaultCard
         title="Translate Y"
