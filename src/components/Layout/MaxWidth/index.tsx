@@ -13,7 +13,7 @@ function MaxWidth() {
       <Row
         name="Post in Desktop"
         value="768px"
-        description="포스트 같은 게시글을 의미합니다."
+        description="포스트 같은 게시글을 의미합니다. HYPE가 사용중입니다."
       />
     </Section>
   );
