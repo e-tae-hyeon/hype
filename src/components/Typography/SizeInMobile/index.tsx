@@ -9,22 +9,22 @@ function SizeInMobile() {
         <TypoRow
           className="text-4xl font-bold"
           font="Hero"
-          css="Bold 36px 3rem"
+          css="Bold 36px 2.25rem"
         />
         <TypoRow
           className="text-[32px] font-bold"
           font="Head1"
-          css="Bold 36px 2.25rem"
+          css="Bold 32px 2rem"
         />
         <TypoRow
           className="text-2xl font-bold"
           font="Head2"
-          css="Bold 30px 1.875rem"
+          css="Bold 24px 1.5rem"
         />
         <TypoRow
-          className="text-[21px] font-bold"
+          className="text-[20px] font-bold"
           font="Head3"
-          css="Bold 24px 1.5rem"
+          css="Bold 20px 1.25rem"
         />
         <TypoRow className="body1" font="Body1" css="Medium 16px 1rem" />
         <TypoRow className="body2" font="Body2" css="Medium 14px 0.875rem" />
