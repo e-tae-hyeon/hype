@@ -3,10 +3,10 @@ import React from "react";
 type Props = {
   name: string;
   value: string;
-  description: string;
+  description?: string;
 };
 
-function LayoutRow({ name, value, description }: Props) {
+function Row({ name, value, description }: Props) {
   return (
     <div className="flex flex-col gap-4">
       <div className="flex items-center justify-between">
@@ -18,4 +18,4 @@ function LayoutRow({ name, value, description }: Props) {
   );
 }
 
-export default LayoutRow;
+export default Row;
