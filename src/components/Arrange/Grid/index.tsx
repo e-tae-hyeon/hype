@@ -4,7 +4,7 @@ import React from "react";
 function Grid() {
   return (
     <Section title="Grid Example">
-      <div className="grid grid-cols-2 gap-8">
+      <div className="grid grid-cols-2 gap-8 lg:grid-cols-4">
         <div className="flex flex-col items-center justify-center gap-4 p-4 bg-white rounded-lg aspect-[3/4]">
           <div className="text-black body1">Grid Layout</div>
           <div className="text-center caption text-neutral-400">
@@ -23,7 +23,9 @@ function Grid() {
         </div>
         <div className="flex flex-col items-center justify-center gap-4 p-4 bg-white rounded-lg aspect-[3/4]">
           <div className="text-black body1">Gap 32px</div>
-          <div className="caption text-neutral-400" />
+          <div className="text-center caption text-neutral-400">
+            HYPE의 모든 그리드에서 사용중입니다.
+          </div>
         </div>
       </div>
     </Section>
