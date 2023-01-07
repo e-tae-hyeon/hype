@@ -23,8 +23,10 @@ function Example() {
           </div>
         </div>
       </div>
-      <ImageCard />
-      <ImageCard tags={["Tag", "body2", "px-8px"]} />
+      <div className="flex flex-col gap-4 lg:grid lg:grid-cols-2 lg:gap-8">
+        <ImageCard />
+        <ImageCard tags={["Tag", "body2", "px-8px"]} />
+      </div>
     </Section>
   );
 }
